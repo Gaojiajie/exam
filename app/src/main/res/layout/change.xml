@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@mipmap/boy"
+        android:id="@+id/pwd_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/Pwd_name"
+        android:hint="输入密码站点"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#5ABC4F"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/Pwd_userName"
+        android:hint="输入用户名"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#5ABC4F"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <EditText
+            android:id="@+id/Pwd_password"
+            android:hint="输入密码"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="#5ABC4F"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_change"
+        android:text="确 认 修 改"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="#5ABC4F"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <Button
+        android:id="@+id/btn_delete"
+        android:text="删 除"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="#E24F4F"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <Button
+        android:id="@+id/btn_add_pwd"
+        android:text="添 加"
+        android:visibility="gone"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="#5ABC4F"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+</LinearLayout>
